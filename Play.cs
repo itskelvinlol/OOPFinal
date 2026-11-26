@@ -21,5 +21,7 @@ namespace OOPFinal {
             Console.Write($"[Broadcast] {msg}");
             Thread.Sleep(delay);
         }
+
+        public abstract PlayResult ExecutePlay(string defensiveCoverage);
     }
 }

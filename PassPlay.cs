@@ -6,13 +6,11 @@ namespace OOPFinal {
         }
 
         // ExecutePlay 
-        // public override PlayResult ExecutePlay(string defensiveCoverage) {
-        //     broadcastMsg("Five seconds left on the play clock.");
-        //     broadcastMsg("And he takes the snap.");
-        // }
+        public override PlayResult ExecutePlay(string defensiveCoverage) {
 
-
-
+        // Generic broadcast messages before the RNG
+            broadcastMsg("Five seconds left on the play clock.");
+            broadcastMsg("And he takes the snap.");
 
         // RNG
         // 1. Defense runs blitz. Gets sacked.
@@ -22,8 +20,8 @@ namespace OOPFinal {
         // 3. Successful pass into the end zone.
 
         // 4. Standard pass with moderate yardage gain.
-        
-        // 5. Incomplete pass.
 
+        // 5. Incomplete pass.
+        }
     }
 }
